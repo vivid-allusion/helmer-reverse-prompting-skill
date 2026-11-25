@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-25 (0.1.12)
+- "Plate" is now "environment" everywhere: pages, examples, evals. The word is VFX, and this is not VFX.
+
 ## 2026-11-25 (0.1.11)
 - Attaching picks to video prompts: the newest pick per element, only what the shot needs, lines below the fence, every address checked, a list kept. A video prompt's length is the shot's real length, never under 4 seconds.
 

@@ -11,7 +11,7 @@ The default, learned on a real project. A project's own skill or brief overrides
 | Asset | Model | Note |
 |---|---|---|
 | Lead faces, canon sheets, costume construction | **GPT Image 2.5 Sunburst** | The most accurate; slow and costly, so only for what must be exact |
-| Environment plates | **Seedream 5.0 and GPT Image**, pick | Same prompt in both folders: [[environments]] |
+| Environments | **Seedream 5.0 and GPT Image**, pick | Same prompt in both folders: [[environments]] |
 | Props, vehicles | **Seedream 5.0** | Fast, cheap, near GPT Image on objects: [[props-vehicles]] |
 | Extras, group and single | **GPT Image** with the still as costume reference | [[extras]] |
 | Small roles | **GPT Image** with the still as costume reference | [[characters]] |

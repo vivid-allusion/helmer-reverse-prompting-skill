@@ -7,7 +7,7 @@
       "should_trigger": true
     },
     {
-      "phrase": "Reverse prompt these animatic frames into characters, props and plates.",
+      "phrase": "Reverse prompt these animatic frames into characters, props and environments.",
       "should_trigger": true
     },
     {
@@ -23,7 +23,7 @@
       "should_trigger": true
     },
     {
-      "phrase": "Shots 12 to 14 are one scene; how many plates do I need?",
+      "phrase": "Shots 12 to 14 are one scene; how many environments do I need?",
       "should_trigger": true
     },
     {
@@ -39,7 +39,7 @@
       "should_trigger": false
     },
     {
-      "phrase": "Generate the harbour plate now.",
+      "phrase": "Generate the harbour environment now.",
       "should_trigger": false
     },
     {

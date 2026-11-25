@@ -1,5 +1,5 @@
 ```prompt
-REFERENCE USAGE: @Image 1 is Marta's identity and clothing, @Image 2 the tin box, @Image 3 the jetty plate.
+REFERENCE USAGE: @Image 1 is Marta's identity and clothing, @Image 2 the tin box, @Image 3 the jetty environment.
 
 THE SHOT, ~5s, one shot: WIDE from the landward end of the jetty. Marta stands at the far end in the right third,
 back half-turned, the tin box closed in both hands. The wind moves her coat's hem. She does not turn.

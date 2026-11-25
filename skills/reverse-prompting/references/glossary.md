@@ -18,7 +18,7 @@ links: [method, scenes, canon-and-state, hero, coverage]
 | **Background** | Everything else; named in the video prompt, never made |
 | **Canon** | A recurring element's truth sheet, in `_CANON/`: [[canon-and-state]] |
 | **State** | How a canon element is in one scene |
-| **Plate** | A place with nobody in it, from one camera side, in the project's look |
+| **Environment** | A place with nobody in it, from one camera side, in the project's look. Never called a plate: that is a VFX word, and this is not VFX |
 | **Sheet** | A character, costume or extras reference picture |
 | **Pick** | The take the person keeps for an asset |
 | **Coverage** | The table of every hero element and what makes it: [[coverage]] |

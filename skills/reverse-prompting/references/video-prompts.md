@@ -16,7 +16,7 @@ Written after the picks, from the assets, scene by scene, for **Seedance 2.5**. 
 
 ## What a scene's prompts share
 
-The scene's locks, pasted at the top of each of its prompts: the place and its plate, the light from `SCENE.md`, each person's costume and state, "costumes never swap; the light never changes between shots".
+The scene's locks, pasted at the top of each of its prompts: the place and its environment, the light from `SCENE.md`, each person's costume and state, "costumes never swap; the light never changes between shots".
 
 ## The shape of a Seedance 2.5 prompt
 

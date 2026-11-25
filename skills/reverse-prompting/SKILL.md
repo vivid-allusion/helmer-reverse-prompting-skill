@@ -1,16 +1,16 @@
 ---
 name: "reverse-prompting"
-description: "Load before turning a film's animatic stills into the assets a video model needs: reverse prompting. Use when a person has a cheap generated still of every shot and wants each scene broken into cast, costumes, props, vehicles, extras, environments and misc under Scene_NNN folders, asset prompt files written per model, a coverage table so nothing drops, takes picked, and video prompts that rebuild each scene, one shot or many, in the project's video model. Also for: setting up the scene and shot map from a shots table, the hero of a shot, plates per scene and camera side, extras group sheets per scene, which model makes which asset, and rebuilding COVERAGE.md. NOT for writing a story or script, breaking a written script into folders with no stills (helmer-story-breakdown), the photoreal prompt method itself (cinematic-realism), one sheet alone (cast-character-sheet, extras-character-sheet), or pressing Generate."
+description: "Load before turning a film's animatic stills into the assets a video model needs: reverse prompting. Use when a person has a cheap generated still of every shot and wants each scene broken into cast, costumes, props, vehicles, extras, environments and misc under Scene_NNN folders, asset prompt files written per model, a coverage table so nothing drops, takes picked, and video prompts that rebuild each scene, one shot or many, in the project's video model. Also for: setting up the scene and shot map from a shots table, the hero of a shot, environments per scene and camera side, extras group sheets per scene, which model makes which asset, and rebuilding COVERAGE.md. NOT for writing a story or script, breaking a written script into folders with no stills (helmer-story-breakdown), the photoreal prompt method itself (cinematic-realism), one sheet alone (cast-character-sheet, extras-character-sheet), or pressing Generate."
 type: workflow
 lifecycle: active
 metadata:
-  version: "0.1.11"
+  version: "0.1.12"
   written-for: "Seedance 2.5"
 ---
 
 # Reverse prompting: from animatic stills to scenes you can build
 
-A still costs cents and a video generation costs dollars. So the film is tested first as stills: one generated frame for every shot, an animatic. When the story holds, each still is taken apart into what the video model needs to rebuild the shot on purpose: a character sheet, a costume, a prop, a vehicle, an extras sheet, an empty plate of the place. Those assets are generated, picked and locked, and only then is video generated, from the assets, scene by scene. Reverse prompting is the taking apart, and the bookkeeping that keeps every piece in its scene.
+A still costs cents and a video generation costs dollars. So the film is tested first as stills: one generated frame for every shot, an animatic. When the story holds, each still is taken apart into what the video model needs to rebuild the shot on purpose: a character sheet, a costume, a prop, a vehicle, an extras sheet, an empty environment of the place. Those assets are generated, picked and locked, and only then is video generated, from the assets, scene by scene. Reverse prompting is the taking apart, and the bookkeeping that keeps every piece in its scene.
 
 The stills are a storyboard, not a look. They decide content, order and shot size. Everything they show is rebuilt in the project's own look, through the asset sheets and the video prompt.
 
@@ -64,10 +64,10 @@ Notes never sit in `PROMPTS/`: every `.md` in a generator's input folder is a jo
 
 - **The hero of the shot gets the assets.** The character in focus and what a prominent character handles, wears or rides. Background is left to the video prompt. `references/hero.md`.
 - **Nothing drops silently.** Every hero element has a prompt file or a stated reason in `MAP/COVERAGE.md`. Gaps lead every report. `references/coverage.md`.
-- **A plate belongs to one scene.** Never merge stills from different scenes into one plate or one extras sheet. Every shot has a plate behind it, close-ups too: a close-up uses its scene's plate for the side it faces, or gets its own. `references/environments.md`.
+- **An environment belongs to one scene.** Never merge stills from different scenes into one environment or one extras sheet. Every shot has an environment behind it, close-ups too: a close-up uses its scene's environment for the side it faces, or gets its own. `references/environments.md`.
 - **A person a shot is about is cast,** named or not: whoever the director would direct gets a single sheet of their own: costume on a ghost mannequin front and back, the face in the close-up only. `references/characters.md`.
 - **Extras are per scene,** only the people seen together; one person alone gets a single sheet; each person carries the nationality of the scene's country. `references/extras.md`.
-- **From a keyframe, asset prompts are short.** The still holds the place and the objects; the prompt only says what to take out or take away. A plate is an edit: "remove all the people, keep the traffic". A prop is lifted out and shown on its own in natural light. `references/environments.md`, `references/props-vehicles.md`.
+- **From a keyframe, asset prompts are short.** The still holds the place and the objects; the prompt only says what to take out or take away. An environment is an edit: "remove all the people, keep the traffic". A prop is lifted out and shown on its own in natural light. `references/environments.md`, `references/props-vehicles.md`.
 - **Describe the frame, not the situation.** The method is the `cinematic-realism` skill.
 - **Never write the aspect ratio in a prompt: it is set in the generator's aspect setting.**
 - **Prompt files follow the `helmer-md` skill.** `references/prompt-files.md`.
@@ -86,7 +86,7 @@ Everything: `references/INDEX.md`.
 | Reading a still; the storyboard-not-look rule | `references/reading-a-still.md` |
 | What gets an asset | `references/hero.md` |
 | Element roles, categories, the ABOUT file | `references/elements.md` |
-| Plates; camera sides; close-ups | `references/environments.md` |
+| Environments; camera sides; close-ups | `references/environments.md` |
 | Leads and small roles | `references/characters.md` |
 | Group sheets, nationality | `references/extras.md` |
 | Props and vehicles | `references/props-vehicles.md` |
@@ -107,6 +107,6 @@ Like a first AD with a contact sheet: which scene, which shot, who the hero is, 
 ## Rules that do not bend
 
 - **Never write a note, an ABOUT file or an index into `PROMPTS/`.**
-- **Never merge two scenes into one plate or one extras sheet.**
+- **Never merge two scenes into one environment or one extras sheet.**
 - **Never end a batch without rebuilding `MAP/COVERAGE.md`,** and never report it with the gaps at the bottom.
 - **Never generate.** Write and fix prompts; generation is the person's press and their money.

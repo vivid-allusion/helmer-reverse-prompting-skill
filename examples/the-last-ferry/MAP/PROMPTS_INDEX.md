@@ -53,7 +53,7 @@ Every prompt file under `PROMPTS/`, by model folder and category. Rebuilt by `co
 
 | File | Refs | What it makes |
 |---|---|---|
-| `VIDEO/Scene_001/SHOT_001.md` | 3 | REFERENCE USAGE: @Image 1 is the harbour plate, @Image 2 the ferry, @Image 3 the harbour w… |
+| `VIDEO/Scene_001/SHOT_001.md` | 3 | REFERENCE USAGE: @Image 1 is the harbour environment, @Image 2 the ferry, @Image 3 the harbour w… |
 
 ### Scene_002
 

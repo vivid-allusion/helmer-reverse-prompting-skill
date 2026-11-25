@@ -35,7 +35,7 @@ Open one page at a time, only for the part you need.
 | Need | Page |
 |---|---|
 | Which model makes which asset | [[models]] |
-| Environment plates | [[environments]] |
+| Environments | [[environments]] |
 | Leads, small roles, states | [[characters]] |
 | Extras: group and single sheets | [[extras]] |
 | Props and vehicles | [[props-vehicles]] |

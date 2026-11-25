@@ -26,7 +26,7 @@ It writes `MAP/SCENES/Scene_001/` to `Scene_003/`, a `SCENE.md` in each and a `S
 
 ## 3. Scenes and shots
 
-`Scene_002/SCENE.md` sets the one light (overcast daylight through the windows, frame-left), the cast's state, and the one camera side. It records the calls: one plate, because shots 3 and 4 are close and face the same side, so they use it too; the tin box closed in shot 2 and open in shot 3, one canon with the state written in the shot.
+`Scene_002/SCENE.md` sets the one light (overcast daylight through the windows, frame-left), the cast's state, and the one camera side. It records the calls: one environment, because shots 3 and 4 are close and face the same side, so they use it too; the tin box closed in shot 2 and open in shot 3, one canon with the state written in the shot.
 
 Each `SHOT_NNN.md` gets its size, its hero, a literal inventory, what is out of frame by its effect, and notes on what changed from the still: the centred framing re-blocked, the push-in motion line to be rewritten. The coat has no prompt of its own, so its row carries the reason: "On Marta's canon sheet".
 
@@ -37,7 +37,7 @@ Each `SHOT_NNN.md` gets its size, its hero, a literal inventory, what is out of 
 | `PROMPTS/GPT-IMAGE-2.5/01_CAST/_CANON/@MARTA.md` | A lead, in two scenes: one canon sheet |
 | `PROMPTS/GPT-IMAGE-2.5/01_CAST/Scene_002/@TOMAS.md` | One scene only: a scene sheet |
 | `PROMPTS/SEEDREAM-5.0/02_PROPS/_CANON/@TIN_BOX.md` | A prop in two scenes |
-| `PROMPTS/SEEDREAM-5.0/03_ENVIRONMENTS/Scene_00N/…` and the same under `GPT-IMAGE-2.5/` | One plate per scene and camera side, in both models, to pick |
+| `PROMPTS/SEEDREAM-5.0/03_ENVIRONMENTS/Scene_00N/…` and the same under `GPT-IMAGE-2.5/` | One environment per scene and camera side, in both models, to pick |
 | `PROMPTS/SEEDREAM-5.0/06_VEHICLES/Scene_001/@LAST_FERRY.md` | The vehicle the shot is about |
 | `PROMPTS/GPT-IMAGE-2.5/05_EXTRAS/Scene_001/@HARBOUR_WORKERS.md` | The scene's group, every man Portuguese, the still attached as costume reference |
 

@@ -6,13 +6,13 @@ links: [scenes, reading-a-still, coverage]
 
 # Decide, write it down, move on
 
-Small calls are yours: which scene an unclear still belongs to, whether two ships are one element, what a sign says when it must be blank, which still is the plate's base, which colour a coat is when stills disagree. Make the call, write it in the `Decided` section of the scene or the element, and keep going.
+Small calls are yours: which scene an unclear still belongs to, whether two ships are one element, what a sign says when it must be blank, which still is the environment's base, which colour a coat is when stills disagree. Make the call, write it in the `Decided` section of the scene or the element, and keep going.
 
 ## What to decide yourself
 
 - Where stills disagree with each other: the majority, or the one closest to the story.
 - Where the story is silent: the plainest choice that fits the period and place.
-- Naming, splitting, the hero of a shot, a plate's camera side.
+- Naming, splitting, the hero of a shot, an environment's camera side.
 
 ## What to bring to the person
 

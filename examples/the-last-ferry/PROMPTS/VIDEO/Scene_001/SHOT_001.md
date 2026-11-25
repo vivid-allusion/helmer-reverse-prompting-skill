@@ -1,5 +1,5 @@
 ```prompt
-REFERENCE USAGE: @Image 1 is the harbour plate, @Image 2 the ferry, @Image 3 the harbour workers' faces and
+REFERENCE USAGE: @Image 1 is the harbour environment, @Image 2 the ferry, @Image 3 the harbour workers' faces and
 clothing.
 
 THE SHOT, ~5s, one shot, already in progress: WIDE, low from the quay, the ferry's bow off-centre right. Six

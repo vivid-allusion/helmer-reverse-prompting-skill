@@ -18,7 +18,7 @@
 | Element | Category | Role | Reason |
 |---|---|---|---|
 | @TOMAS | 01_CAST | hero | |
-| @FERRY_CABIN | 03_ENVIRONMENTS | hero | Scene plate, side A |
+| @FERRY_CABIN | 03_ENVIRONMENTS | hero | Scene environment, side A |
 
 ## Notes
 

@@ -29,7 +29,7 @@ Every pick attached to a video prompt is told its role in words:
 |---|---|
 | Identity | A face, a body, a person's costume |
 | Construction | An object or garment to copy exactly |
-| Environment | A plate |
+| Environment | An environment |
 | Framing | A kept still, only when its composition is wanted, never its light |
 
 ## Attaching picks to the video prompts

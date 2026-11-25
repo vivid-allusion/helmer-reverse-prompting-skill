@@ -8,5 +8,5 @@
 
 ## Decided
 
-- One plate, side A: the two close shots face the same side and use it.
+- One environment, side A: the two close shots face the same side and use it.
 - The tin box is closed in SHOT_002 and open in SHOT_003: one canon, the state written in the shot.

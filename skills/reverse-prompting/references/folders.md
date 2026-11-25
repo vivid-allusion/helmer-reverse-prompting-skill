@@ -35,7 +35,7 @@ PROMPTS/
 
 ## Why scene first
 
-A plate, an extras sheet and a cast state belong to a scene, not to the film. With the scene as parent, the folder says which scene an asset was made for, two scenes can each hold `@HARBOUR` without colliding, and `Scene_002/` across the categories is the whole scene's asset list.
+An environment, an extras sheet and a cast state belong to a scene, not to the film. With the scene as parent, the folder says which scene an asset was made for, two scenes can each hold `@HARBOUR` without colliding, and `Scene_002/` across the categories is the whole scene's asset list.
 
 ## The ABOUT file
 

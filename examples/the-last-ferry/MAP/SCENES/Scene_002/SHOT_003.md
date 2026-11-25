@@ -19,7 +19,7 @@
 |---|---|---|---|
 | @MARTA | 01_CAST | hero | |
 | @TIN_BOX | 02_PROPS | hero | |
-| @FERRY_CABIN | 03_ENVIRONMENTS | hero | Scene plate, side A |
+| @FERRY_CABIN | 03_ENVIRONMENTS | hero | Scene environment, side A |
 
 ## Notes
 

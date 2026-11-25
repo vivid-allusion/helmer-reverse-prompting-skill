@@ -39,25 +39,25 @@
       ]
     },
     {
-      "id": "multi-shot-scene-plates",
-      "prompt": "Shots 2, 3 and 4 are all in the ferry cabin, in one continuous moment. Shot 3 is an insert of her hands and 4 is a close-up of the boy. How many cabin plates?",
+      "id": "multi-shot-scene-environments",
+      "prompt": "Shots 2, 3 and 4 are all in the ferry cabin, in one continuous moment. Shot 3 is an insert of her hands and 4 is a close-up of the boy. How many cabin environments?",
       "assertions": [
         {
           "kind": "says",
-          "what": "one plate for the scene's one camera side, used by the close-ups too"
+          "what": "one environment for the scene's one camera side, used by the close-ups too"
         },
         {
           "kind": "says",
-          "text": "Scene plate, side A",
+          "text": "Scene environment, side A",
           "grounded_in": "references/environments.md"
         },
         {
           "kind": "says",
-          "what": "the plate sits under Scene_002, in both the Seedream and GPT Image folders"
+          "what": "the environment sits under Scene_002, in both the Seedream and GPT Image folders"
         },
         {
           "kind": "not_says",
-          "what": "one plate per still"
+          "what": "one environment per still"
         }
       ],
       "cross_module": true,
@@ -65,7 +65,7 @@
         {
           "tree": "repo",
           "path": "examples/the-last-ferry/MAP/SCENES/Scene_002/SCENE.md",
-          "needle": "One plate, side A"
+          "needle": "One environment, side A"
         },
         {
           "tree": "repo",
@@ -239,11 +239,11 @@
     },
     {
       "id": "model-routing",
-      "prompt": "Which model for the plates, the props and the extras?",
+      "prompt": "Which model for the environments, the props and the extras?",
       "assertions": [
         {
           "kind": "says",
-          "what": "plates in both Seedream and GPT Image, then pick"
+          "what": "environments in both Seedream and GPT Image, then pick"
         },
         {
           "kind": "says",
@@ -262,8 +262,8 @@
       "cross_module": false
     },
     {
-      "id": "keyframe-plate-is-an-edit",
-      "prompt": "Shot 1 is a wide of a city street at night: a man walks away, cars parked and driving. Write the environment plate prompt.",
+      "id": "keyframe-environment-is-an-edit",
+      "prompt": "Shot 1 is a wide of a city street at night: a man walks away, cars parked and driving. Write the environment prompt.",
       "assertions": [
         {
           "kind": "says",

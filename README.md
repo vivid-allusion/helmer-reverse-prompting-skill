@@ -1,7 +1,7 @@
 # Reverse Prompting Skill.md
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skill-0.1.11-24292f?style=flat" alt="Skill version 0.1.11" />
+  <img src="https://img.shields.io/badge/skill-0.1.12-24292f?style=flat" alt="Skill version 0.1.12" />
   &nbsp;
   <img src="https://img.shields.io/badge/model-Seedance%202.5-24292f?style=flat" alt="Written for Seedance 2.5" />
   &nbsp;
@@ -18,7 +18,7 @@
   <img src="assets/reverse-prompting-loop.svg" alt="The loop: stills, scenes, elements, asset prompts, picks, video, with the coverage table checking the elements against the prompts." width="100%" />
 </p>
 
-**reverse-prompting** is an Agent Skill for AI filmmakers who test a film as cheap stills, one generated frame per shot, and then take each still apart into the assets a costly video model needs: character and extras sheets, costumes, props, vehicles and empty plates of each place. The assets are filed scene by scene, written as prompt files per model, counted so nothing is lost, picked, and only then used to generate video, one shot or a run of shots per scene.
+**reverse-prompting** is an Agent Skill for AI filmmakers who test a film as cheap stills, one generated frame per shot, and then take each still apart into the assets a costly video model needs: character and extras sheets, costumes, props, vehicles and empty environments of each place. The assets are filed scene by scene, written as prompt files per model, counted so nothing is lost, picked, and only then used to generate video, one shot or a run of shots per scene.
 
 ## Install
 
@@ -37,7 +37,7 @@ It needs Node and npm and a machine that is online. Nothing else is needed: the 
 | **Stills to scenes** | A shots table (shot, scene, still, old motion line) turned into `MAP/SCENES/Scene_NNN/SCENE.md` and `SHOT_NNN.md` by `scaffold.py`. A scene is one continuous place and time, of one shot or many. |
 | **Reading a still** | A literal inventory, what is out of frame by its effect, and the hero of the shot. The still is a storyboard, not a look. |
 | **Elements** | Only the hero and what a prominent character handles, wears or rides get an asset. Every element under `02_PRE-PRODUCTION/<category>/Scene_NNN/@NAME/`; a recurring one also under `_CANON/@NAME/`. |
-| **Asset prompts** | One folder per model: plates in Seedream and GPT Image, props and vehicles in Seedream, extras in GPT Image with the still as costume reference, video prompts in `PROMPTS/VIDEO/`, written for Seedance 2.5. Sheets in overcast daylight on grey concrete. |
+| **Asset prompts** | One folder per model: environments in Seedream and GPT Image, props and vehicles in Seedream, extras in GPT Image with the still as costume reference, video prompts in `PROMPTS/VIDEO/`, written for Seedance 2.5. Sheets in overcast daylight on grey concrete. |
 | **Coverage** | `coverage.py` rebuilds `MAP/COVERAGE.md`: every hero element with its prompt file or a stated reason, the missing ones first. |
 | **Picks and video** | Picks get public addresses and go into the slots; video prompts rebuild each scene from them. |
 
@@ -47,7 +47,8 @@ It points to the skills it works beside rather than repeating them: `cinematic-r
 
 | Skill | Written for | Notes |
 |---|---|---|
-| 0.1.11 | Seedance 2.5 | Current. Picks are attached by rule: the newest per element, only what the shot needs. Each video prompt's length is the shot's real length, never under 4 seconds. |
+| 0.1.12 | Seedance 2.5 | Current. "Plate" is now "environment" everywhere. |
+| 0.1.11 | Seedance 2.5 | Picks are attached by rule: the newest per element, only what the shot needs. Each video prompt's length is the shot's real length, never under 4 seconds. |
 | 0.1.10 | Seedance 2.5 | Cast sheets show the costume on a ghost mannequin front and back; the face is in the close-up only. |
 | 0.1.9 | Seedance 2.5 | Never write the aspect ratio in a prompt; it is the generator's setting. |
 | 0.1.8 | Seedance 2.5 | A person a shot is about is cast, named or not, with a sheet made from the still. |
