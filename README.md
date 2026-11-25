@@ -1,7 +1,7 @@
 # Reverse Prompting Skill.md
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skill-0.1.10-24292f?style=flat" alt="Skill version 0.1.10" />
+  <img src="https://img.shields.io/badge/skill-0.1.11-24292f?style=flat" alt="Skill version 0.1.11" />
   &nbsp;
   <img src="https://img.shields.io/badge/model-Seedance%202.5-24292f?style=flat" alt="Written for Seedance 2.5" />
   &nbsp;
@@ -47,7 +47,8 @@ It points to the skills it works beside rather than repeating them: `cinematic-r
 
 | Skill | Written for | Notes |
 |---|---|---|
-| 0.1.10 | Seedance 2.5 | Current. Cast sheets show the costume on a ghost mannequin front and back; the face is in the close-up only. |
+| 0.1.11 | Seedance 2.5 | Current. Picks are attached by rule: the newest per element, only what the shot needs. Each video prompt's length is the shot's real length, never under 4 seconds. |
+| 0.1.10 | Seedance 2.5 | Cast sheets show the costume on a ghost mannequin front and back; the face is in the close-up only. |
 | 0.1.9 | Seedance 2.5 | Never write the aspect ratio in a prompt; it is the generator's setting. |
 | 0.1.8 | Seedance 2.5 | A person a shot is about is cast, named or not, with a sheet made from the still. |
 | 0.1.7 | Seedance 2.5 | A plate names the hero in the removal; the person a shot is about gets a sheet of their own. |

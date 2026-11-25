@@ -31,3 +31,16 @@ Every pick attached to a video prompt is told its role in words:
 | Construction | An object or garment to copy exactly |
 | Environment | A plate |
 | Framing | A kept still, only when its composition is wanted, never its light |
+
+## Attaching picks to the video prompts
+
+Once the picks have addresses, they are attached to the video prompts. A short script can do the writing; these are the rules it follows.
+
+- **In:** the video prompts, the picks' addresses from their sidecars, and the shot files, which say which elements each shot holds and which is the hero.
+- **One pick per element.** Where an element has several takes, the newest wins. A pick the person made or rewrote by hand beats a generated one. When the age of a take cannot be read from its name, ask.
+- **Only what the shot needs.** Read the still first: it shows what matters in the shot. Attach the hero, the cast, the shot's environment and a prop that is held or used. Drop extras that stand far back, set dressing and props nobody touches; name them in words instead: [[hero]].
+- **Where the lines go.** One `![reference_images](<address>)` line per picture, below the closed `prompt` fence and above the length. The address never goes into the prompt text. The prompt's REFERENCE USAGE block names the pictures in the same order.
+- **Check.** Every address must answer before the prompt is run; one that does not breaks the whole generation.
+- **Write it down.** Keep a list of which picture went to which shot, and what was dropped and why, so the person can review it.
+
+Re-running it after a new pick replaces the attached lines; it never touches the prompt text.

@@ -4,7 +4,7 @@ description: "Load before turning a film's animatic stills into the assets a vid
 type: workflow
 lifecycle: active
 metadata:
-  version: "0.1.10"
+  version: "0.1.11"
   written-for: "Seedance 2.5"
 ---
 
@@ -37,7 +37,7 @@ The stills are a storyboard, not a look. They decide content, order and shot siz
 7. **Route each asset to a model** and write its prompt file in that model's folder. `references/models.md`, then the page for the kind: `references/environments.md`, `references/characters.md`, `references/extras.md`, `references/props-vehicles.md`.
 8. **Check and count.** `python3 <skill>/scripts/check_prompts.py .` then `python3 <skill>/scripts/coverage.py .`. Missing elements lead the report. `references/coverage.md`.
 9. **The person generates and picks.** Picks get public addresses and go into the reference slots. `references/picks.md`.
-10. **Write the video prompts,** one per scene beat or one per shot, picks attached by role. `references/video-prompts.md`.
+10. **Write the video prompts,** one per scene beat or one per shot, picks attached by role: the newest pick per element, only what the shot needs. Each length is the shot's real length, never under 4 seconds. `references/video-prompts.md`, `references/picks.md`.
 
 Rebuild coverage after every batch. Make the small calls yourself and write them down: `references/decisions.md`.
 

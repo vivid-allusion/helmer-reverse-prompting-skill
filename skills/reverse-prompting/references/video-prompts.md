@@ -36,7 +36,7 @@ duration: 5
 ```
 
 - **References** go in the `reference_images` slot, as `![reference_images](url)`, and are `@Image 1`, `@Image 2` … in that order. A start frame and reference images never go in the same file.
-- **Length:** `duration:` in seconds, 4 to 30 per generation; a beat of several shots adds up its shots and stays under the limit.
+- **Length:** `duration:` in seconds, 4 to 30 per generation. Take each shot's length from its clip in the cut animatic, rounded to whole seconds, never a default. A shot shorter than 4 seconds is written as 4; it is trimmed in the edit. A beat of several shots adds up its shots and stays under the limit. A shot with no clip to measure: ask.
 - **Sound** is generated with the picture: write what is heard, diegetic only.
 
 ## What each prompt attaches

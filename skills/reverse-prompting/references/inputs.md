@@ -28,6 +28,7 @@ Write the table by looking at the stills, or let the person write it. A still wh
 - One still per shot. Two stills of one shot are one row, with the kept one.
 - Each needs a **public web address**: image models take references by address only. A still on disk is invisible to them until it is uploaded.
 - They are the storyboard, not the look: [[reading-a-still]].
+- When the animatic is cut, note each shot's length in seconds. It becomes the video prompt's length: [[video-prompts]].
 
 ## The story
 

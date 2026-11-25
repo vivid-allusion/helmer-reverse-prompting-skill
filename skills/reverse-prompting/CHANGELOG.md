@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-25 (0.1.11)
+- Attaching picks to video prompts: the newest pick per element, only what the shot needs, lines below the fence, every address checked, a list kept. A video prompt's length is the shot's real length, never under 4 seconds.
+
 ## 2026-11-10 (0.1.10)
 - Cast sheets show the costume on a ghost mannequin front and back; the face is in the close-up only.
 
